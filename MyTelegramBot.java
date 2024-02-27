@@ -29,7 +29,7 @@ public class MyTelegramBot extends TelegramLongPollingBot {
     @Override
     public String getBotUsername() {
         // Return bot username
-        return "IndianChatgpt_bot";
+        return "@IndianChatgpt_bot";
     }
 
     @Override
