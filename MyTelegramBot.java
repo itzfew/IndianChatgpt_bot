@@ -1,14 +1,3 @@
-import java.util.*;
-
- // Compiler version JDK 11.0.2
-
- class Dcoder
- {
-   public static void main(String args[])
-   { 
-    System.out.println("Hello, Dcoder!");
-   }
- }
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Message;
@@ -48,4 +37,4 @@ public class MyTelegramBot extends TelegramLongPollingBot {
         // Return bot token
         return "7023809709:AAEnKoOofjq0-Kjg1lCjoQ7xR-wcyTgNVPM";
     }
-        }
+}
